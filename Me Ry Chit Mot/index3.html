@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chọn món quà</title>
+  <style>
+    body{
+      margin:0; height:100vh; display:flex; align-items:center; justify-content:center;
+      background: radial-gradient(circle at top, #2b0000, #000);
+      font-family: "Segoe UI", system-ui, sans-serif; color:#fff;
+    }
+    .wrap{ text-align:center; width:min(520px, 92vw); }
+    h1{ margin:0 0 10px; font-size:28px; letter-spacing:.5px; }
+    p{ margin:0 0 22px; opacity:.75; font-size:14px; }
+    .btn{
+      display:block; text-decoration:none; color:#fff;
+      padding:16px 18px; margin:12px 0; border-radius:18px;
+      border:2px solid rgba(255,215,0,.65);
+      background: linear-gradient(to bottom, #d32f2f, #7a0000);
+      font-weight:800; letter-spacing:.3px;
+      box-shadow: 0 10px 35px rgba(255,0,0,.25);
+      transition: transform .12s ease, filter .12s ease;
+    }
+    .btn:hover{ transform: translateY(-2px); filter: brightness(1.05); }
+    .btn.secondary{
+      background: linear-gradient(to bottom, #1a1a1a, #000);
+      box-shadow: 0 10px 35px rgba(255,215,0,.12);
+    }
+    .note{ margin-top:16px; font-size:12px; opacity:.6; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🎁 Chọn món quà</h1>
+    <p>Quét QR → chọn 1 trong 2 phiên bản để trải nghiệm.</p>
+
+    <a class="btn" href="./christmas.html">🎄 Magic Christmas (Hand + Love)</a>
+    <a class="btn secondary" href="./index2.html">✨ Gifts & Lights (Pinch xem ảnh)</a>
+
+    <div class="note">Nếu không thấy cập nhật, hãy Ctrl+F5 hoặc mở tab ẩn danh.</div>
+  </div>
+</body>
+</html>
